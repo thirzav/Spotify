@@ -7,17 +7,115 @@ White: #FFF
 
 */
 
-img {
-    width: 100px;
-    height: 100px;
-    position: relative;
+
+.encabezado {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #FFF;
+    width: 100vw;
+    height: 12vh; 
+    position: fixed;
+    top: 0;
+  
 }
 
-.enlaces {
-    display: flex;
+.logo {
+    align-self: center;
+}
+
+.navbar {
+    align-self: center;
+    margin-right: 20px;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+.background {
+    height:100vh;
+    background: url(landing.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1, .subtitle1 {
+    top: 200px;
+    text-align: center;
+    color: #FFF;
+    align-self: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 10vw;
+}
+
+.box {
+    width: 25vw;
+    height: auto;
+    text-align: center;
+}
+
+.subtitle2 {
+    text-align: center;
+    text-decoration: underline #00B172;
+    text-underline-offset: 10px;
+}
+
+.subtitle3 {
+    color: #00B172;
+}
+
+.end {
+    width: 98vw;
+    height: 500px;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle4 {
+    color: #FFF;
+    text-align: start;
+    text-decoration: underline #FFF;
+    text-underline-offset: 10px;
+}
+
+.caja {
+    width: 50vw;
+    height: 20px;
+}
+
+@media (width <= 320px) {
+    .encabezado {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (width >= 1000px) {
+
+}
+
+@media (321 <= width >= 1000) {
+
+}
+
