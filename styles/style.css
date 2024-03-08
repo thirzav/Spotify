@@ -47,7 +47,6 @@ h1, .subtitle1 {
     top: 200px;
     text-align: center;
     color: #FFF;
-    align-self: center;
 }
 
 
@@ -77,24 +76,43 @@ h1, .subtitle1 {
     color: #00B172;
 }
 
-.end {
-    width: 98vw;
-    height: 500px;
+
+footer {
     background-color: #00B172;
-    display: flex;
-    flex-direction: column;
 }
 
 .subtitle4 {
     color: #FFF;
+    margin-left: 5%;
     text-align: start;
     text-decoration: underline #FFF;
     text-underline-offset: 10px;
 }
 
+.container2 {
+    width: 100vw;
+    height: 500px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 50vw;
+    flex-wrap: wrap;
+}
+
 .caja {
-    width: 50vw;
-    height: 20px;
+    width: 25vw;
+    margin-left: 20%;    
+    text-align: start;
+}
+
+.app {
+    max-width: 30%;
+}
+
+.fondo {
+    position: relative;
+    top: 300px;
+    left: 800px;
 }
 
 @media (width <= 320px) {
