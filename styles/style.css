@@ -20,6 +20,8 @@ White: #FFF
 }
 
 .logo {
+    width: 150px;
+    height: 50px;
     align-self: center;
 }
 
@@ -79,40 +81,43 @@ h1, .subtitle1 {
 
 footer {
     background-color: #00B172;
+    height: 600px;
 }
 
-.subtitle4 {
+.titleVerde {
     color: #FFF;
-    margin-left: 5%;
-    text-align: start;
     text-decoration: underline #FFF;
     text-underline-offset: 10px;
+    margin-left: 10%;
 }
 
-.container2 {
-    width: 100vw;
-    height: 500px;
-    color: #FFF;
+.contenidoVerde {
     display: flex;
-    flex-direction: column;
-    gap: 50vw;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .caja {
-    width: 25vw;
-    margin-left: 20%;    
-    text-align: start;
+    width: 20%;
 }
 
-.app {
-    max-width: 30%;
+.caja1 {
+    color: #FFF;
 }
 
-.fondo {
-    display: flex;
-    align-self: center;
+img {
+    width: 20vw;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media (width <= 320px) {
     .encabezado {
@@ -133,45 +138,9 @@ footer {
 }
 
 @media (321 <= width >= 1000) {
+    .container {
+        flex-wrap: wrap;
+    }
 
 }
 
-
-
-.container3 {
-    width: 100vw;
-    height: 500px;
-    background-color: #00B172;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.subtitle6 {
-    width: 100vw;
-    color: #FFF;
-    text-align: start;
-    text-decoration: underline #FFF;
-    text-underline-offset: 10px;
-}
-
-.cajasfooter {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container4 {
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.iconfooter {
-    width: 25vw;
-    display: flex;
-}
-
-.imagefooter {
-    width: 25vw;
-    display: flex;
-}
